@@ -12,7 +12,7 @@ const duplicates = [
   'soda'
 ];
 
-function removeDuplicates(list) {
+const removeDuplicates = (list) => {
   const uniques = [];
   for (const item of list) {
     if (!uniques.includes(item)) {
@@ -21,3 +21,5 @@ function removeDuplicates(list) {
   }
   return uniques;
 }
+
+console.log(removeDuplicates(duplicates))

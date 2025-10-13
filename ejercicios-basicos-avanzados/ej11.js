@@ -10,10 +10,10 @@ const mixedElements = [
   "Hola mundo",
 ];
 
-function averageWord(list) {
+const averageWord = (list) => {
   let sum = 0
   for (const item of list) {
-    if (typeof(item) == "number") {
+    if (typeof(item) === "number") {
         sum += item;
     } else {
         sum += item.length;
@@ -21,3 +21,5 @@ function averageWord(list) {
   }
   return sum
 }
+
+console.log(averageWord(mixedElements))
