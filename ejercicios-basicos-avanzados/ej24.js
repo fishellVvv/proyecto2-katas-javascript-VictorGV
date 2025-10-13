@@ -9,8 +9,8 @@ const characters = [
   { name: 'Yoda', species: 'Unknown' },
   { name: 'Han Solo', species: 'Human' }
 ];
-const humanCharacters = [];
 
+const humanCharacters = [];
 for (const character of characters) {
   if (character.species === "Human") {
     humanCharacters.push(character);
