@@ -8,13 +8,13 @@ const avengers = [
 ];
 
 const findLongestWord = (stringList) => {
-  let longest = 0;
-  for (let i = 0; i < stringList.length; i++) {
-    if (stringList[i].length > stringList[longest].length) {
-        longest = i;
+  let longest = "";
+  for (const element of stringList) {
+    if (element.length > longest.length) {
+      longest = element;
     }    
   }
-  return stringList[longest];
+  return longest;
 }
 
 console.log(findLongestWord(avengers))
