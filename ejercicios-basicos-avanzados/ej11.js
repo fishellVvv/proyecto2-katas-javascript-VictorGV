@@ -19,7 +19,8 @@ const averageWord = (list) => {
         sum += item.length;
     }
   }
-  return sum;
+  const average = sum / list.length;
+  return average;
 }
 
 console.log(averageWord(mixedElements))
