@@ -1,9 +1,9 @@
 const greaterNumber = (numberOne , numberTwo) => {
   if (numberTwo > numberOne) {
-    console.log(numberTwo)
+    console.log(numberTwo);
   } else {
-    console.log(numberOne)
-  }
-}
+    console.log(numberOne);
+  };
+};
 
 greaterNumber(2, 4);

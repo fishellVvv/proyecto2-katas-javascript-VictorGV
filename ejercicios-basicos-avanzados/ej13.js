@@ -16,8 +16,8 @@ const nameFinder = (nameList, name) => {
   const i = nameList.indexOf(name);
   if (i === -1) {
     return false;
-  }
+  };
   return [true, i];
-}
+};
 
-console.log(nameFinder(names, "Clint"))
+console.log(nameFinder(names, "Clint"));

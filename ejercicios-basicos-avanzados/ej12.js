@@ -17,9 +17,9 @@ const removeDuplicates = (list) => {
   for (const item of list) {
     if (!uniques.includes(item)) {
       uniques.push(item);
-    }
-  }
+    };
+  };
   return uniques;
 }
 
-console.log(removeDuplicates(duplicates))
+console.log(removeDuplicates(duplicates));

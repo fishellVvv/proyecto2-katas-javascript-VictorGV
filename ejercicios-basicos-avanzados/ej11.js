@@ -17,10 +17,10 @@ const averageWord = (list) => {
         sum += item;
     } else {
         sum += item.length;
-    }
-  }
+    };
+  };
   const average = sum / list.length;
   return average;
 }
 
-console.log(averageWord(mixedElements))
+console.log(averageWord(mixedElements));

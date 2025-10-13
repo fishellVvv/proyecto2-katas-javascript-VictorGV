@@ -17,10 +17,10 @@ const repeatCounter = (list) => {
   for (const w of list) {
     if (!(w in countedWords)) {
       countedWords[w] = 0;
-    }
+    };
     countedWords[w]++;
-  }
+  };
   return countedWords;
-}
+};
 
-console.log(repeatCounter(words))
+console.log(repeatCounter(words));
