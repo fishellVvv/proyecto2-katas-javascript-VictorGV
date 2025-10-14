@@ -11,7 +11,7 @@ const xMen = [
   { name: 'Mystique', year: 1978 }
 ];
 
-function findOldestXMen(xMen) {
+const findOldestXMen = (xMen) => {
   let oldestMutant = { name: "", year: 9999 };
 
   for (const mutant of xMen) {

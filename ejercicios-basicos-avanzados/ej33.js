@@ -11,7 +11,7 @@ const capitals = {
   Ireland: 'Dublin'
 };
 
-function getCapital(country) {
+const getCapital = (country) => {
   return !capitals[country] ? "Error: 404 - Country not found" : capitals[country];
 };
 

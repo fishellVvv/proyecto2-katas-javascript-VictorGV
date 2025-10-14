@@ -11,7 +11,7 @@ const movies = [
   { title: 'Insomnia', duration: 118 }
 ];
 
-function averageMovieDuration(movies) {
+const averageMovieDuration = (movies) => {
   let sum = 0;
   for (const movie of movies) {
     sum += movie.duration;
