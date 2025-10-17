@@ -11,5 +11,5 @@ for (const user of users) {
     console.log("Usuarios menores de edad: " + user.name);
   } else {
     console.log("Usuarios mayores de edad: " + user.name);
-  };
-};
+  }
+}

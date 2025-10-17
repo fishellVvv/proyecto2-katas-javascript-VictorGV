@@ -1,15 +1,15 @@
 const words = [
-  'code',
-  'repeat',
-  'eat',
-  'sleep',
-  'code',
-  'enjoy',
-  'sleep',
-  'code',
-  'enjoy',
-  'sleep',
-  'code'
+  "code",
+  "repeat",
+  "eat",
+  "sleep",
+  "code",
+  "enjoy",
+  "sleep",
+  "code",
+  "enjoy",
+  "sleep",
+  "code",
 ];
 
 const repeatCounter = (list) => {
@@ -17,9 +17,9 @@ const repeatCounter = (list) => {
   for (const w of list) {
     if (!(w in countedWords)) {
       countedWords[w] = 0;
-    };
+    }
     countedWords[w]++;
-  };
+  }
   return countedWords;
 };
 

@@ -36,15 +36,15 @@ const users = [
 const averageVolume = (userList) => {
   let sum = 0;
   let count = 0;
-  
+
   for (const user of userList) {
     for (const sound in user.favoritesSounds) {
       sum += user.favoritesSounds[sound].volume;
       count++;
-    };
-  };
+    }
+  }
 
-  return (sum / count);
+  return sum / count;
 };
 
 console.log(averageVolume(users));

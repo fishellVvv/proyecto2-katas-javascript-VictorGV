@@ -6,7 +6,8 @@ const fantasticFour = [
 ];
 
 const swap = (array, indexA, indexB) => {
-  if (indexA >= array.length || indexB >= array.length) return "Error: index out of bounds";
+  if (indexA >= array.length || indexB >= array.length)
+    return "Error: index out of bounds";
 
   const swapedArray = array.slice();
 

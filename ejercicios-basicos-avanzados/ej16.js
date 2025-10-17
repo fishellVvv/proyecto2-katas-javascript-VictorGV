@@ -9,4 +9,4 @@ const placesToTravel = [
 
 for (const item of placesToTravel) {
   console.log(item);
-};
+}

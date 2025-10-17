@@ -22,18 +22,18 @@ for (const movie of movies) {
     mediumMovies.push(movie);
   } else {
     largeMovies.push(movie);
-  };
-};
+  }
+}
 
 console.log("\nShort Movies:");
 for (const movie of shortMovies) {
   console.log(movie.name + " [ " + movie.durationInMinutes + " min.]");
-};
+}
 console.log("\nMedium Movies:");
 for (const movie of mediumMovies) {
   console.log(movie.name + " [ " + movie.durationInMinutes + " min.]");
-};
+}
 console.log("\nLarge Movies:");
 for (const movie of largeMovies) {
   console.log(movie.name + " [ " + movie.durationInMinutes + " min.]");
-};
+}

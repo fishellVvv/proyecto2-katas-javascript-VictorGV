@@ -13,14 +13,14 @@ const mixedElements = [
 const averageWord = (list) => {
   let sum = 0;
   for (const item of list) {
-    if (typeof(item) === "number") {
-        sum += item;
+    if (typeof item === "number") {
+      sum += item;
     } else {
-        sum += item.length;
-    };
-  };
+      sum += item.length;
+    }
+  }
   const average = sum / list.length;
   return average;
-}
+};
 
 console.log(averageWord(mixedElements));

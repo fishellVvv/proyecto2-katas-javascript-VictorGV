@@ -11,7 +11,7 @@ const placesClean = [];
 for (const item of placesToTravel) {
   if (item.id !== 11) {
     placesClean.push(item);
-  };
-};
+  }
+}
 
 console.log(placesClean);

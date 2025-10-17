@@ -12,8 +12,8 @@ const findLongestWord = (stringList) => {
   for (const element of stringList) {
     if (element.length > longest.length) {
       longest = element;
-    };
-  };
+    }
+  }
   return longest;
 };
 

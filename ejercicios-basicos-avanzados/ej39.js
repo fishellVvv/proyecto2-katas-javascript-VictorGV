@@ -42,9 +42,9 @@ const countFavorites = (userList) => {
         soundsCounter[key]++;
       } else {
         soundsCounter[key] = 1;
-      };
-    };
-  };
+      }
+    }
+  }
 
   return soundsCounter;
 };

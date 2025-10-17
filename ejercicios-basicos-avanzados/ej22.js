@@ -14,7 +14,7 @@ for (const item of foodSchedule) {
   if (!item.isVegan) {
     item.name = unusedFruits.pop();
     item.isVegan = true;
-  };
-};
+  }
+}
 
 console.log(foodSchedule);
