@@ -24,12 +24,10 @@ const printList = () => {
   img.alt = data[0].fullName;
 
   characterList.addEventListener("change", async (ev) => {
-    const id = Number(ev.target.value);
-    const res = await fetch(`https://thronesapi.com/api/v2/Characters/${id}`);
-    const character = await res.json();
+    const id = Number.parseInt(ev.target.value);
 
-    img.src = character.imageUrl;
-    img.alt = character.fullName;
+    img.src = data[id].imageUrl;
+    img.alt = data[id].fullName;
   });
 };
 
