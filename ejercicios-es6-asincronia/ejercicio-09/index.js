@@ -1,5 +1,5 @@
 const img = document.querySelector(".random-image");
-const randomNumber = Math.floor(Math.random() * 152);
+const randomNumber = Math.ceil(Math.random() * 151);
 
 const getPokemon = async (id) => {
   try {
