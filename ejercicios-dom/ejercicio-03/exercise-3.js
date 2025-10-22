@@ -28,26 +28,29 @@ cars.forEach((car) => {
 printHere.appendChild(ul2);
 
 // 3.4
-const countries2 = [
-  { title: "Random title", imgUrl: "https://picsum.photos/300/200?random=1" },
-  { title: "Random title", imgUrl: "https://picsum.photos/300/200?random=2" },
-  { title: "Random title", imgUrl: "https://picsum.photos/300/200?random=3" },
-  { title: "Random title", imgUrl: "https://picsum.photos/300/200?random=4" },
-  { title: "Random title", imgUrl: "https://picsum.photos/300/200?random=5" },
-];
+{
+  // bloque para no chocar con el otro 'countries'
+  const countries = [
+    { title: "Random title", imgUrl: "https://picsum.photos/300/200?random=1" },
+    { title: "Random title", imgUrl: "https://picsum.photos/300/200?random=2" },
+    { title: "Random title", imgUrl: "https://picsum.photos/300/200?random=3" },
+    { title: "Random title", imgUrl: "https://picsum.photos/300/200?random=4" },
+    { title: "Random title", imgUrl: "https://picsum.photos/300/200?random=5" },
+  ];
 
-const cards = [];
+  const cards = [];
 
-countries2.forEach(({ title, imgUrl }) => {
-  const card = document.createElement("div");
-  card.innerHTML = `
+  countries.forEach(({ title, imgUrl }) => {
+    const card = document.createElement("div");
+    card.innerHTML = `
     <h4>${title}</h4>
     <img src="${imgUrl}" alt="${title}"/>
     `;
 
-  document.body.appendChild(card);
-  cards.push(card);
-});
+    document.body.appendChild(card);
+    cards.push(card);
+  });
+}
 
 // 3.5
 const btnDeleteLast = document.createElement("button");
