@@ -1,9 +1,9 @@
-// 1.
+// 2.1
 const jedi = { nombre: "Luke Skywalker", edad: 19 };
 
 jedi.edad = 25;
 
-// 2.
+// 2.2
 let nombre = "Leia";
 let apellido = "Organa";
 let edad = 20;
@@ -18,14 +18,14 @@ console.log(
     " años y soy una princesa de Alderaan."
 );
 
-// 3.
+// 2.3
 const sable1 = { nombre: "Shoto de Yoda", precio: 1500 };
 const sable2 = { nombre: "Sable de Darth Vader", precio: 2000 };
 
 let precioTotal = sable1.precio + sable2.precio;
 console.log(precioTotal);
 
-// 4.
+// 2.4
 let precioBaseGlobal = 10000;
 
 precioBaseGlobal = 25000;

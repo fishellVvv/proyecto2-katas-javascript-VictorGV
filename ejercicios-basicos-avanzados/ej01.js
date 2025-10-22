@@ -1,17 +1,17 @@
-// 1.
+// 1.1
 let miSuperheroeFavorito = "Hulk";
 
-// 2.
+// 1.2
 let numeroFavorito = 50;
 
-// 3.
+// 1.3
 let altura = 5;
 let longitud = 10;
 
-// 4.
+// 1.4
 let suma = altura + longitud;
 
-// 5.
+// 1.5
 console.log(miSuperheroeFavorito);
 console.log(numeroFavorito);
 console.log(altura);
